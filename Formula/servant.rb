@@ -2,24 +2,24 @@
 class Servant < Formula
   desc "AI servant CLI — enhances developer and coding-agent workflows"
   homepage "https://github.com/Bakar0/ai-servant-cli"
-  version "0.0.1"
+  version "0.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.0.1/servant-darwin-arm64.tar.gz"
-      sha256 "0524b41eaaba013aca4348df6bc036c55fa5f8b24e7d111489c28541714e4c08"
+      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.1.0/servant-darwin-arm64.tar.gz"
+      sha256 "83f37cd76abbee0a7a5c80d21ee3aa50febf319d1ba074492e11fedb4055cf67"
     end
     on_intel do
-      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.0.1/servant-darwin-x64.tar.gz"
-      sha256 "2d990054773fa2f8b56983551a77bc251aa396cebe0a9617adafe1b50d7a045b"
+      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.1.0/servant-darwin-x64.tar.gz"
+      sha256 "fc3c41db5fbf68d3fc27c11f2295b2bf7ee25ce71de51c843380571d36c84080"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.0.1/servant-linux-x64.tar.gz"
-      sha256 "b963deb7114b4cf716c74fcd1374751f44abab719545c3a154a315aa66afb9c4"
+      url "https://github.com/Bakar0/ai-servant-cli/releases/download/v0.1.0/servant-linux-x64.tar.gz"
+      sha256 "8746df2b9d324a516072fb46fd000b79966a0d3116282bbbf2c4000420a2ebae"
     end
   end
 
