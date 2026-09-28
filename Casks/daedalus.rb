@@ -19,7 +19,7 @@ cask "daedalus" do
   # The app updates itself from GitHub Releases, so `brew upgrade` leaves it
   # alone unless asked with --greedy.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Daedalus.app"
 
