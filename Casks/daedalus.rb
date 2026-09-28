@@ -2,9 +2,9 @@
 cask "daedalus" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.8.3"
-  sha256 arm:   "81ad44a2843f8d142b49c1675cef505334e1078d7a3dec1b46d6eaf6b24e0663",
-         intel: "6df57a52a8e7cc9cd315ab2a880b2a7a3d2833ebdeb79f377a7d0eedbcea274a"
+  version "0.8.4"
+  sha256 arm:   "bb605b0de3a0fdde083a7b5bf16669a66e73fd5b84edf3af55d7ecb06389fe41",
+         intel: "53ecfbe70f93d6e3043506371bc07657b42f6632ebdba0d92e312ed07c6fb2b4"
 
   url "https://github.com/Bakar0/daedalus/releases/download/v#{version}/stable-macos-#{arch}-Daedalus.dmg"
   name "Daedalus"
@@ -22,6 +22,8 @@ cask "daedalus" do
   depends_on macos: :sonoma
 
   app "Daedalus.app"
+  # Puts `daedal` on PATH. The launcher runs the CLI inside the app.
+  binary "#{appdir}/Daedalus.app/Contents/Resources/bin/daedal"
 
   # This build is not notarized. Homebrew quarantines what it installs, and
   # Gatekeeper refuses to open an unnotarized app from quarantine.
