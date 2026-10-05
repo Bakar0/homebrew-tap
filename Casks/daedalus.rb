@@ -2,9 +2,9 @@
 cask "daedalus" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.11.1"
-  sha256 arm:   "80f71105abef2bf63592d4b4aec4f521a1ce0349d33c45d6c466ca77648280c6",
-         intel: "ff7382447262ae8c5de210e44aa797c2351dee37773b7fa56c51b23a284b4e2d"
+  version "0.11.2"
+  sha256 arm:   "614e64a67db39c4b459a3f9192b95e04ab78b4f64fbb0f1ac22875fc36cdcc8f",
+         intel: "1034273382dad25490e231385b11548e751cef933e68473e00590775ddd9acaf"
 
   url "https://github.com/Bakar0/daedalus/releases/download/v#{version}/stable-macos-#{arch}-Daedalus.dmg"
   name "Daedalus"
